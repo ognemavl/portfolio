@@ -1,0 +1,225 @@
+.header {
+      margin-top: -71px;
+      width: 100%;
+      height: 100vh;
+  }
+  
+  .flex-wrapper {
+      display: flex;
+  }
+  
+  .img-header {
+      width: 40%;
+      height: 110vh;
+      background-color: #000000;
+      height: auto;
+  }
+  
+  .img-header img {
+      top: 70px;
+      position: absolute;
+  }
+  
+  .text-header {
+      background-color: #181824;
+      width: 60%;
+      height: 110vh;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .intro-header {
+      position: absolute;
+      top: 160px;
+      font-size: 3rem;
+      z-index: 98;
+      color: #fff;
+  }
+  
+  .place-header {
+      position: absolute;
+      z-index: 98;
+      top: 268px;
+      color: #8c8b92;
+      font-size: 3rem;
+  }
+  
+  .intrograph {
+      color: #fff;
+      top: 330px;
+      position: absolute;
+  }
+  
+  @media (max-width: 1029px) {
+      .intro-header {
+          font-size: 2.2rem;
+          top: 190px;
+          position: absolute;
+      }
+      
+      .place-header {
+          font-size: 2.2rem;
+          top: 280px;
+          position: absolute;
+      }
+      
+      .intrograph {
+          font-size: 0.8rem;
+      }
+  }
+  
+  @media (max-width: 833px) {
+      .intro-header {
+          top: 215px;
+          position: absolute;
+          font-size: 2rem;
+      }
+      
+      .place-header {
+          top: 290px;
+          position: absolute;
+          font-size: 2rem;
+      }
+      
+      .intrograph {
+          font-size: 0.7rem;
+      }
+  }
+  
+  @media (max-width: 743px) {
+      .img-header {
+          width: 40%;
+          height: 110vh;
+          background-color: #000000;
+          height: auto;
+      }
+      
+      .img-header img {
+          top: 70px;
+          position: absolute;
+          width: 400px;
+          height: auto;
+      }
+      .intro-header {
+          top: 215px;
+          position: absolute;
+          font-size: 1.5rem;
+      }
+      
+      .place-header {
+          top: 270px;
+          position: absolute;
+          font-size: 1.5rem;
+      }
+      
+      .intrograph {
+          font-size: 0.5rem;
+          top: 300px;
+          position: absolute;
+      }
+  }
+  
+  @media (max-width: 490px) {
+      .header {
+          height: 70vh;
+      }
+      .img-header {
+          width: 40%;
+          height: 70vh;
+          background-color: #000000;
+          height: auto;
+      }
+  
+      .text-header {
+          height: 70vh;
+      }
+      
+      .img-header img {
+          top: 70px;
+          position: absolute;
+          width: 320px;
+          height: auto;
+      }
+      .intro-header {
+          top: 215px;
+          position: absolute;
+          font-size: 1.2rem;
+      }
+      
+      .place-header {
+          top: 260px;
+          position: absolute;
+          font-size: 1.2rem;
+      }
+      
+      .intrograph {
+          font-size: 0.4em;
+          top: 284px;
+          position: absolute;
+      }
+  }
+  
+  @media (max-width: 408px) {
+      .img-header {
+          width: 40%;
+          height: 110vh;
+          background-color: #000000;
+          height: auto;
+      }
+      
+      .img-header img {
+          top: 70px;
+          position: absolute;
+          width: 320px;
+          height: auto;
+      }
+      .intro-header {
+          top: 220px;
+          position: absolute;
+          font-size: 1rem;
+      }
+      
+      .place-header {
+          top: 260px;
+          position: absolute;
+          font-size: 1rem;
+      }
+      
+      .intrograph {
+          font-size: 0.3rem;
+          top: 284px;
+          position: absolute;
+      }
+  }
+  
+  @media (max-width: 327px) {
+      .img-header {
+          width: 40%;
+          height: 110vh;
+          background-color: #000000;
+          height: auto;
+      }
+      
+      .img-header img {
+          top: 70px;
+          position: absolute;
+          width: 230px;
+          height: auto;
+      }
+      .intro-header {
+          top: 150px;
+          position: absolute;
+          font-size: 0.8rem;
+      }
+      
+      .place-header {
+          top: 180px;
+          position: absolute;
+          font-size: 0.8rem;
+      }
+      
+      .intrograph {
+          font-size: 0.2rem;
+          top: 194px;
+          position: absolute;
+      }
+  }

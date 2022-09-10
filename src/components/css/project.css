@@ -1,0 +1,173 @@
+.projects {
+      height: 100vh;
+      width: 100%;
+      background-color: #000000;
+}
+
+.intro {
+      color: #fff;
+      padding-left: 40px;
+      padding-top: 30px;
+}
+
+.intro p {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.3vw;
+      color: #69747d;
+}
+
+.intro h1 {
+      font-family: 'Inter', sans-serif;
+      font-size: 1.9vw;
+}
+
+.card {
+      width: 300px;
+      height: 310px;
+      background-color: #181824;
+      color: #fff;
+      border-radius: 5px 5px 10px 10px;
+      font-family: 'Source Sans Pro', sans-serif;
+}
+
+.img-holder {
+      width: 300px;
+      height: auto;
+      border-radius: 5px 5px 0 0 ;
+}
+
+.style {
+      height: 12vh;
+}
+
+.card h1 {
+      padding-left: 7px;
+}
+
+.card p {
+      padding-left: 8px;
+}
+
+.buttons {
+      display: flex;
+      justify-content: space-around;
+      width: 150px;
+      padding-top: 20px;
+}
+
+.btn1 {
+      background-color: #0099B8;
+      width: 65px;
+      height: 30px;
+      border-radius: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.btn2{
+      width: 50px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+@media (min-width: 930px) {
+      .div-class {
+            display: flex;
+            justify-content: space-around;
+      }
+}
+
+@media (max-width : 930px) {
+      .projects {
+            height: 180vh;
+      }
+
+      .div-class {
+            display: table;
+            margin: 0 auto;
+      }
+
+      .space{
+            height: 5vh;
+      }
+}
+
+@media (max-width : 683px) {
+      .card p {
+            font-size: 0.8rem;
+      }
+
+      .card h1 {
+            font-size: 1.3rem;
+      }
+}
+
+@media (max-width: 639px) {
+      .projects {
+            height: 160vh;
+      }
+      .card {
+            width: 270px;
+            height: 260px;
+            background-color: #181824;
+            color: #fff;
+            border-radius: 5px 5px 10px 10px;
+            font-family: 'Source Sans Pro', sans-serif;
+      }
+      
+      .img-holder {
+            width: 270px;
+            height: auto;
+            border-radius: 5px 5px 0 0 ;
+      }
+      
+      .style {
+            height: 18vh;
+      }
+      
+      .card h1 {
+            padding-left: 7px;
+      }
+      
+      .card p {
+            padding-left: 8px;
+      }
+      
+      .buttons {
+            display: flex;
+            justify-content: space-around;
+            width: 150px;
+            padding-top: 15px;
+      }
+      
+      .btn1 {
+            background-color: #0099B8;
+            width: 60px;
+            height: 25px;
+            border-radius: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+      }
+      
+      .btn2{
+            width: 60px;
+            height: 25px;
+            border-radius: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+      }
+      .card p {
+            font-size: 0.6rem;
+      }
+
+      .card h1 {
+            font-size: 1.1rem;
+      }
+}
